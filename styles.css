@@ -108,9 +108,7 @@ footer {
   ul {
     flex-direction: column;
   }
-  h1{
-    flex-direction: column;
-  }
+ 
     
     
   div.hero-text{
@@ -120,8 +118,9 @@ footer {
     padding: 10px;
     
   }
+  
   .hero-image{
-    background-image:url(/imagenes/BannerMazda3_1.jpg);
+    background-image:url(./imagenes/BannerMazda3_1.jpg);
     height: 491px;
   }
 
