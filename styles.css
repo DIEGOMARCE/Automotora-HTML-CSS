@@ -37,7 +37,7 @@ li a:hover {
 }
 
 .hero-image {
-  background-image: url("/imagenes/BannerMazda3_1.jpg");
+  background-image: url("./imagenes/BannerMazda3_1.jpg");
   background-color: #cccccc;
   height: 700px;
   display: flex;
