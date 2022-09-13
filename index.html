@@ -5,42 +5,49 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/a668693c3f.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-   
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
   
     <title>Mi Automotora S.A</title>
 </head>
 
 <body>
     <!-- Seccion De Navegacion -->
-    <header>
-        <nav class="flex-container">
-            <ul>
-                <li><a href="#Inicio">Inicio</a></li>
-                <li><a href="Acercadenosotros.html">Acerca de Nosotros</a></li>
-                <li><a href="modelos.html">Modelos</a></li>
-                <li><a href="encuesta.html">Encuesta</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+    <nav class="navbar navbar-expand-lg"  style="background-color:slategrey;">
+        <div class="container-fluid">
+       
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link " aria-current="page" href="#Inicio">Inicio</a>
+              <a class="nav-link"  href="Acercadenosotros.html">Acerca de Nosotros</a>
+              <a class="nav-link" href="modelos.html">Modelos</a>
+               <a class="nav-link" href="encuesta.html">Encuesta</a>
+               <a class="nav-link" href="Contacto.html">Contacto</a>
+            </div>
+          </div>
+        </div>
+      </nav>
 
-    </header>
-
-    <main>
+   
         <!-- Seccion De Inicio -->
         <div id="Inicio" class="hero-image ">
             <div class="hero-text ">
                 <h1 style="font-size:30px" class="animate__animated animate__backInDown">Bienvenidos a nuestra web</h1>
-                <h3>Tenemos los mejores modelos de la region</h3>
-                <p>
+                <h3 class="animate__animated animate__bounceInDown">Tenemos los mejores modelos de la region</h3>
+                <p class="animate__animated animate__backInUp">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam
                     necessitatibus odio quisquam reprehenderit quas, obcaecati, harum hic
-                    molestiae sequi ipsa nihil id tempore explicabo libero vero quia
+                    molestiae sequi ipsa nihil tempore explicabo libero vero quia
                     asperiores similique dicta.
                 </p>
 
@@ -53,7 +60,9 @@
             <div class="container">&copy; Diego Sanhueza</div>
         </footer>
         <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" 
+crossorigin="anonymous"></script>
 </body>
 
 </html>
