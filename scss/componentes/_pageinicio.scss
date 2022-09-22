@@ -1,0 +1,24 @@
+//pagina de inicio
+.hero-image {
+    background-image: url("../imagenes/BannerMazda3_1.jpg");
+    background-color: $color-secundario;
+    height: 700px;
+    display: flex;
+    flex-direction: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-size: cover;
+  }
+  
+    
+    .hero-text {
+      text-align: center;
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: aliceblue;
+      font-size: large;
+      font-weight: bold;
+    }
