@@ -7,9 +7,9 @@ html {
   body {
     background: $color-principal;
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
-    font-family: "Montserrat", sans-serif;
-    text-align: center;
-    margin: 0%;
+    font-family: map-get($map: $cuerpo, $key:fuentes );
+    text-align: map-get($map: $cuerpo, $key:textos-alineacion );
+    margin: map-get($map: $cuerpo, $key:margen );
 
   }
 
@@ -26,8 +26,7 @@ html {
     color:$color-claro;
 }
 
-
-footer {
+@mixin PieDePagina {
     background: $color-principal;
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
     position: absolute;
@@ -35,5 +34,10 @@ footer {
     width: 100%;
     height: 40px;
     color: $color-claro;
+}
+
+
+footer {
+    @include PieDePagina()
    
   }

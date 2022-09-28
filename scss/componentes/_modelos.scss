@@ -7,8 +7,10 @@
    margin-bottom: 20px;
    margin-left: 5px;
    margin-right: 5px;
- 
-  }
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left
+   }
  
  
  div{
@@ -17,23 +19,26 @@
          align-items:center;
      }
  }
+
+//Extends
+ %cajas-imagenes{
+    border: 1px solid $color-oscuro;
+    margin-top:20px;
+ }
  
  .fotosKia{
      IMG{
-         border: 1px solid $color-oscuro;
-         margin-top:20px;
+         @extend %cajas-imagenes;
      }
  }
  .fotosAudi{
      IMG{
-         border: 1px solid $color-oscuro;
-         margin-top:20px;
+        @extend %cajas-imagenes;
      }
  }
  
  .fotosBmw{
      IMG{
-         border: 1px solid $color-oscuro;
-         margin-top:20px;
+        @extend %cajas-imagenes;
      }
  }
