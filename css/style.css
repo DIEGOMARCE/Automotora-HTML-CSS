@@ -119,12 +119,7 @@ div.container {
   }
   .hero-image {
     background-image: url(../imagenes/banner.jpg);
-    height: 791px;
-    width: 100%;
-    background-size: cover;
-    background-position: center center;
-    display: block;
-    background-repeat: no-repeat;
+    height: 491px;
   }
   /* Tabla Modelos Responsivas */
   tr {
