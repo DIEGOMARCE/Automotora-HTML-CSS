@@ -1,6 +1,7 @@
 html {
   min-height: 100%;
   position: relative;
+  margin: 0%;
 }
 
 body {
@@ -31,7 +32,7 @@ footer {
 }
 
 .hero-image {
-  background-image: url("../imagenes/BannerMazda3_1.jpg");
+  background-image: url("../imagenes/banner.jpg");
   background-color: #cccccc;
   height: 700px;
   display: flex;
@@ -117,8 +118,14 @@ div.container {
     height: 100%;
   }
   .hero-image {
-    background-image: url(../imagenes/BannerMazda3_1.jpg);
-    height: 491px;
+    background-image: url(../imagenes/banner.jpg);
+    height: 791px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    display: block;
+    background-repeat: no-repeat;
   }
   /* Tabla Modelos Responsivas */
   tr {

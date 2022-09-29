@@ -5,8 +5,6 @@
 @import "./componentes/modelos";
 
 
-
-  
 //Media Querys
 @media(
     max-device-width:
@@ -58,8 +56,15 @@
 }
 
   .hero-image{
-    background-image:url(../imagenes/BannerMazda3_1.jpg);
-    height: 491px;
+    background-image:url(../imagenes/banner.jpg);
+    height: 791px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    display: block;
+    background-repeat: no-repeat;
+    
   }
   
   
