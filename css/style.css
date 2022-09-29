@@ -123,7 +123,6 @@ div.container {
     width: 100%;
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed;
     display: block;
     background-repeat: no-repeat;
   }
